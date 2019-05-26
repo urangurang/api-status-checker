@@ -19,7 +19,7 @@ def get_api_urls(filename):
 
 def call_api(api):
     try:
-        if api['methods'] == "GET":
+        if api['method'] == "GET":
             res = requests.get(api['url'])
         else:
             res = requests.post(api['url'])

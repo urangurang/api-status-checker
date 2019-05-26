@@ -2,8 +2,8 @@
   "apis":
   [
     {
-      "name": "",
-      "url": "",
+      "name": "RECOMMEND",
+      "url": "https://grp03.api.rp.rakuten.co.jp/geap/v1/ichiba/rcmd/recommend_bic.json?sid=00-00-002-001&encoding=utf-8",
       "method": "GET"
     }
   ]
